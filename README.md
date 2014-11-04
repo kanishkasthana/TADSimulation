@@ -2,6 +2,7 @@ TADSimulation
 =============
 
 Testing potential Bias scores for finding TAD boundaries in this simulation
+
 **Aims:** 
 
 1. Creation of a Scoring metric to computer Bias in the number of interactions upstream and downstream of a an element along a
