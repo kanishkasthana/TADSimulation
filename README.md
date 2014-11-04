@@ -20,8 +20,8 @@ Scoring was done using five different scoring metrics and TAD boundaries compute
 Five Scoring metrics were devised to find the best way of scoring bias. The scoring metrics are as follows:
 
 1. U and D were computed where U is the sum of interaction frequencies of all elements upstream of the element and D is the sum of all interaction frequencies downstream of the element on the chromosome.
- * In the first case the difference: U-D was taken each element: <img src="Rplot02.png">
- * In the second case the ratio of U/D was taken for each element
+ * In the first metric the difference: U-D was taken each element: <img src="Rplot02.png">
+ * By taking the derivative of this plot the rate of change of bias was computed: <img src="Rplot03.png">
 
 2. U and D were computed where U is the sum of all interaction frequencies for elements upstream
 
