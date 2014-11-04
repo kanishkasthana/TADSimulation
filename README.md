@@ -20,4 +20,8 @@ Scoring was done using five different scoring metrics and TAD boundaries compute
 
 Five Scoring metrics were devised to find the best way of scoring bias:
 
+Testing embed:
+<embed width="420" height="315"
+src="https://www.youtube.com/watch?v=xUrlreMaUrs">
+
 
