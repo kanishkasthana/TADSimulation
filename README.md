@@ -12,7 +12,8 @@ chromose.
 **Methods:**
 
 Simulated TADs were created as shown in the first Plot. TADs are recreated at every simulation and can be seen as blocks that have
-a high interaction frequency between the elements. Background noise was also simulated.
+a high interaction frequency between the elements. Background noise was also simulated. See figure below:
+<img src="Rplot01.png" >
 Scoring was done using five different scoring metrics and TAD boundaries computed using each rate of chagne the of scoring metrics.
 
 **Description of Analysis:**
