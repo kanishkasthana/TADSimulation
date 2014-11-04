@@ -5,23 +5,24 @@ Testing potential Bias scores for finding TAD boundaries in this simulation
 
 **Aims:** 
 
-1. Creation of a Scoring metric to computer Bias in the number of interactions upstream and downstream of a an element along a
-chromose.
+1. Creation of a Scoring metric to compute Bias in the number of interactions upstream and downstream of a an element along a
+chromosome.
 2. Use this Bias score to elucidate the boundaries of Topological Domains
 
 **Methods:**
 
-Simulated TADs were created as shown in the first Plot. TADs are recreated at every simulation and can be seen as blocks that have
-a high interaction frequency between the elements. Background noise was also simulated. See figure below:
+Simulated TADs were created as shown in the figure below. TADs are recreated at every simulation and can be seen as blocks that have a high interaction frequency between the elements. Background noise was also simulated.
 <img src="Rplot01.png" >
-Scoring was done using five different scoring metrics and TAD boundaries computed using each rate of chagne the of scoring metrics.
+Scoring was done using five different scoring metrics and TAD boundaries computed using rate of chagne the of scoring metrics.
 
 **Description of Analysis:**
 
-Five Scoring metrics were devised to find the best way of scoring bias:
+Five Scoring metrics were devised to find the best way of scoring bias. The scoring metrics are as follows:
 
-Testing embed:
-<embed width="420" height="315"
-src="https://www.youtube.com/watch?v=xUrlreMaUrs">
+1. U and D were computed where U is the sum of interaction frequencies of all elements upstream of the element and D is the sum of all interaction frequencies downstream of the element on the chromosome.
+ * In the first case the difference: U-D was taken each element: <img src="Rplot02.png">
+ * In the second case the ratio of U/D was taken for each element
+
+2. U and D were computed where U is the sum of all interaction frequencies for elements upstream
 
 
