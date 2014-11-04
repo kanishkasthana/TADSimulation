@@ -11,7 +11,7 @@ chromosome.
 
 **Methods:**
 
-Simulated TADs were created as shown in the figure below. TADs are recreated at every simulation and can be seen as blocks that have a high interaction frequency between the elements. Background noise was also simulated.
+Simulated TADs were created as shown in the figure below.Deeper reds indicate higher interaction frequencies while white indicates zero interaction frequency. TADs are recreated at every simulation and can be seen as blocks that have a high interaction frequency between the elements. Background noise was also simulated, while self interaction frequency was set at zero.
 <img src="Rplot01.png" >
 Scoring was done using five different scoring metrics and TAD boundaries computed using rate of chagne the of scoring metrics.
 
